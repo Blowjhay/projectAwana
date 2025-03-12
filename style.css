@@ -736,3 +736,129 @@ ul > a{
 }
 
 
+@media (min-width: 260px) and ( max-width: 420px) {
+    .hamburger{
+        display: block;
+        font-size: 28px;
+    }
+
+    #toggle:checked + .navRight{
+        display: block;
+        transform: none;
+    }
+
+    header{
+        background: linear-gradient(to right, #fffaed 88%,#f8dd44 88%);
+    }
+    nav{
+        padding-inline: 8px;
+    }
+    .navRight{
+        display: none;
+    }
+
+    .hero{
+        padding-inline: 8px;
+        display: block;
+        /* border: solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .heroText{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        /* border: blue 1px solid; */
+    }
+    .heroText > h1{
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 30px;
+        /* width: 420px; */
+        max-width: 90%;
+    }
+    .heroText > p{
+        max-width: 90%;
+        /* width: 350px; */
+    }
+    .heroText > button{
+        width: fit-content;
+    }
+
+    .heroImage{
+        /* display: block; */
+        width: 100%;
+        height: auto;
+        /* border: blue solid; */
+    }
+
+    .heroImage > img{
+        border-radius: 8px;
+    }
+
+    .theBios{
+        padding-inline: 8px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .bioBox{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .bioBox > h2{
+        font-size: 22px;
+    }
+    .bioBox > p{
+        max-width: 90%;
+    }
+
+    .proSec{
+        padding-inline: 8px;
+        flex-direction: column;
+        gap: 16px;
+        /* border: red solid; */
+        width: auto;
+        height: auto;
+        padding: 36px 12px;
+        margin-top: 30px;
+    }
+    .proCard1, .proCard2, .proCard3{
+        max-width: 100%;
+        /* border: blue solid 1px; */
+    }
+    
+    .flower{
+        /* border: red solid; */
+        width: 120px;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        margin-left: 280px;
+        margin-top: 4px;
+        rotate: -40deg;
+    }
+    .flower > img{
+        width: 100%;
+        height: 100%;
+        /* position: absolute;
+        top: 0;
+        z-index: -1; */
+    }
+
+    .h2Style{
+        font-size: 22px;
+    }
+
+
+}
+    
+
+
+
+
